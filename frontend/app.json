@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "extra": {
+      "eas": {
+        "projectId": "56915439-3317-44e7-a6ce-54f81469728c"
+      }
+    },
+    "android": {
+      "package": "com.rajpurohitmahima99.realtimechatfrontend"
+    }
+  }
+}
