@@ -22,6 +22,7 @@ function isOriginAllowed(origin) {
   // Requests with no Origin header (native apps, curl, server-to-server)
   // are allowed through; browser requests are checked against the allowlist.
   if (!origin) return true;
+  if (CLIENT_ORIGINS.includes("*")) return true;
   return CLIENT_ORIGINS.includes(origin);
 }
 
